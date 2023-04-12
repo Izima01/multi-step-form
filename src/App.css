@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .topnav {
     background: url(assets/images/bg-sidebar-mobile.svg);
     background-repeat: no-repeat;

@@ -9,7 +9,7 @@ const NavBar_Desktop = () => {
     return (
         <div className="h-auto w-[30%] relative flex justify-center">
             <div className='absolute sidenav left-0 right-0 top-0 w-full h-full rounded-xl z-0' />
-            <nav className='flex gap-6 mt-8 flex-col z-10'>
+            <nav className='flex gap-6 mt-10 flex-col z-10'>
                 {navData.map(({name, link, other, des}, index) => (
                     <div key={index} className='flex gap-4 items-center'>
                         <div
