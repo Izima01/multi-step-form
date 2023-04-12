@@ -1,0 +1,13 @@
+.topnav {
+    background: url(assets/images/bg-sidebar-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sidenav {
+    background: url(assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
