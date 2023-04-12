@@ -18,14 +18,14 @@ function App() {
   return (
     <AppProvider>
       {/* mobilw view */}
-      <div className={`sm:hidden w-full flex flex-col relative ${current === "/plan" ? "h-[110vh]" : "h-[100vh]"} gap-0`}>
+      <div className={`sm:hidden w-full flex flex-col relative h-screen gap-0`}>
         <div className="w-full bg-cover topnav h-2/5">
-          <div className="mt-7 w-full">
+          <div className="mt-10 w-full">
             <Navbar />
           </div>
         </div>
         <div className="bg-[#ecf3fd] w-full h-3/5" />
-        <div className="w-[90%] absolute left-[5%] mx-auto top-[5.5rem] rounded-2xl bg-white px-6 py-4">
+        <div className="w-[90%] absolute -translate-y-1/2 top-1/2 -translate-x-1/2 left-1/2 mx-auto rounded-2xl bg-white px-6 py-4">
           <Routes>
             <Route path='/' element={<PersonalInfo />} />
             <Route element={<CheckStarted />}>
