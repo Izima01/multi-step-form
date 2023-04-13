@@ -18,13 +18,13 @@ function App() {
   return (
     <AppProvider>
       {/* mobile view */}
-      <div className={`sm:hidden w-full flex flex-col relative h-screen gap-0`}>
-        <div className="w-full bg-cover h-2/6 topnav">
+      <div className={`sm:hidden w-full flex flex-col relative h-[90vh] gap-0`}>
+        <div className="w-full bg-cover h-2/5 topnav">
           <div className="mt-10 w-full">
             <Navbar />
           </div>
         </div>
-        <div className="bg-[#ecf3fd] w-full h-3/6" />
+        <div className="bg-[#ecf3fd] w-full h-3/5" />
         <div className="w-[90%] absolute -translate-y-1/2 top-1/2 -translate-x-1/2 left-1/2 mx-auto rounded-2xl bg-white p-6">
           <Routes>
             <Route path='/' element={<PersonalInfo />} />
@@ -36,7 +36,7 @@ function App() {
             </Route>
           </Routes>
         </div>
-        <div className='w-full h-1/6 px-4 py-3 shadow-2xl shadow-black bg-white'>
+        <div className='fixed bottom-0 left-0 w-full px-4 py-3 shadow-2xl shadow-black bg-white'>
           <Footer />
         </div>
       </div>
