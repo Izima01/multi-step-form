@@ -18,14 +18,14 @@ function App() {
   return (
     <AppProvider>
       {/* mobile view */}
-      <div className={`sm:hidden w-full flex flex-col relative h-[90vh] gap-0`}>
+      <div className={`sm:hidden w-full flex flex-col relative h-screen gap-0`}>
         <div className="w-full bg-cover h-2/5 topnav">
-          <div className="mt-10 w-full">
+          <div className="mt-9 w-full">
             <Navbar />
           </div>
         </div>
         <div className="bg-[#ecf3fd] w-full h-3/5" />
-        <div className="w-[90%] absolute -translate-y-1/2 top-1/2 -translate-x-1/2 left-1/2 mx-auto rounded-2xl bg-white p-6">
+        <div className="w-[86%] absolute -translate-y-1/2 top-[52%] left-[7%] mx-auto rounded-2xl bg-white p-6">
           <Routes>
             <Route path='/' element={<PersonalInfo />} />
             <Route element={<CheckStarted />}>
@@ -43,9 +43,9 @@ function App() {
 
       {/* desktop view */}
       <div className='w-full min-h-screen hidden sm:flex items-center justify-center bg-[#f0f6ff]'>
-        <div className='p-4 flex items-stretch justify-between rounded-2xl sm:w-[80%] lg:w-[70%] bg-[#fafbff] shadow-lg shadow-slate-300'>
+        <div className='p-4 flex items-stretch justify-between rounded-2xl my-10 lg:my-0 sm:w-[80%] lg:w-[70%] bg-[#fafbff] shadow-lg shadow-slate-300'>
           <NavBar_Desktop />
-          <div className='px-10 md:px-16 lg:px-20 w-[70%] pt-8 pb-4'>
+          <div className='px-8 md:px-12 lg:px-20 w-[63%] lg:w-[70%] pt-8 pb-4'>
             <Routes>
               <Route path='/' element={<PersonalInfo />} />
               <Route element={<CheckStarted />}>

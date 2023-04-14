@@ -11,7 +11,7 @@ const SelectPlan = () => {
     <>
       <h1 className="text-[#02295a] mb-2 text-2xl font-bold">Select your plan</h1>
       <p className="text-sm text-gray-400 mb-2">You have the option of monthly or yearly billing.</p>
-      <form className='flex flex-col w-full gap-2 sm:gap-4 sm:flex-row'>
+      <form className='flex flex-col w-full gap-2 sm:flex-row'>
         <PlanButton isMonthly={!isYearly} thisPlan="Arcade" price={9} />
         <PlanButton isMonthly={!isYearly} thisPlan="Advanced" price={12} />
         <PlanButton isMonthly={!isYearly} thisPlan="Pro" price={15} />
