@@ -18,14 +18,14 @@ function App() {
   return (
     <AppProvider>
       {/* mobile view */}
-      <div className={`sm:hidden w-full flex flex-col relative h-screen gap-0`}>
+      <div className={`sm:hidden w-full flex flex-col relative h-[90vh] gap-0`}>
         <div className="w-full bg-cover h-2/5 topnav">
           <div className="mt-9 w-full">
             <Navbar />
           </div>
         </div>
         <div className="bg-[#ecf3fd] w-full h-3/5" />
-        <div className="w-[86%] absolute -translate-y-1/2 top-[52%] left-[7%] mx-auto rounded-2xl bg-white p-6">
+        <div className="w-[86%] absolute -translate-y-1/2 top-[45%] left-[7%] mx-auto rounded-2xl bg-white p-6">
           <Routes>
             <Route path='/' element={<PersonalInfo />} />
             <Route element={<CheckStarted />}>

@@ -545,8 +545,8 @@ video {
   top: 0px;
 }
 
-.top-\[52\%\] {
-  top: 52%;
+.top-\[45\%\] {
+  top: 45%;
 }
 
 .z-0 {
@@ -631,16 +631,16 @@ video {
   height: 1.25rem;
 }
 
+.h-\[90vh\] {
+  height: 90vh;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .min-h-screen {
@@ -655,12 +655,12 @@ video {
   width: 1.25rem;
 }
 
-.w-\[35\%\] {
-  width: 35%;
+.w-\[37\%\] {
+  width: 37%;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[63\%\] {
+  width: 63%;
 }
 
 .w-\[86\%\] {
@@ -669,22 +669,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[62\%\] {
-  width: 62%;
-}
-
-.w-\[38\%\] {
-  width: 38%;
-}
-
-.w-\[37\%\] {
-  width: 37%;
-}
-
-.w-\[63\%\] {
-  width: 63%;
 }
 
 .-translate-y-1\/2 {
@@ -879,11 +863,6 @@ video {
   padding-right: 0.25rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -892,6 +871,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2 {
@@ -907,11 +891,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-4 {
@@ -1137,10 +1116,6 @@ video {
     gap: 1.75rem;
   }
 
-  .sm\:gap-3 {
-    gap: 0.75rem;
-  }
-
   .sm\:p-5 {
     padding: 1.25rem;
   }
@@ -1166,11 +1141,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
