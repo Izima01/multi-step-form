@@ -17,3 +17,8 @@
     background-size: cover;
     background-position: top left;
 }
+
+input {
+    z-index: 10;
+    position: relative;
+}

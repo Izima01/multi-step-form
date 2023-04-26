@@ -86,9 +86,7 @@ export const AppProvider = ({ children }) => {
     }, [add_ons, isYearly]);
 
     useEffect(() => {
-        console.log({addonPrice});
         sessionStorage.setItem("addonPrice", addonPrice);
-        console.log({planPrice});
         sessionStorage.setItem("planPrice", planPrice);
     }, [planPrice, addonPrice]);
 
